@@ -1,0 +1,28 @@
+html,
+body {
+padding: 0;
+margin: 0;
+	background-color: black;
+}
+
+.topbar{
+	padding: 10px;
+	border-bottom: 1px solid #DDD;
+	background-color: white;
+}
+
+.splide--ttb>.splide__arrows .splide__arrow,
+.splide--ttb>.splide__track>.splide__arrows .splide__arrow {
+	left: auto !important;
+	right: 20px !important;
+}
+
+.splide--ttb>.splide__arrows .splide__arrow--prev,
+.splide--ttb>.splide__track>.splide__arrows .splide__arrow--prev {
+	top: 40px !important;
+}
+
+.splide--ttb>.splide__arrows .splide__arrow--next,
+.splide--ttb>.splide__track>.splide__arrows .splide__arrow--next {
+	bottom: 30px !important;
+}
